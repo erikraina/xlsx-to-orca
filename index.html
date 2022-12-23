@@ -3,9 +3,19 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <script lang="javascript" src="https://cdn.sheetjs.com/xlsx-latest/package/dist/xlsx.full.min.js"></script>
+    <script src="index.js"></script>
+
+    <title>Excel to ORCA</title>
 </head>
 <body>
-    <h1>hello world!</h1>
+
+    <h1 id="title">xlsx to orca</h1>
+    <form onsubmit="fileInput()">
+        <input type="file" id="userInput" name="filename" class="file">
+        <input type="submit" class="file-input">
+    </form>
+
 </body>
 </html>
